@@ -1,0 +1,204 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+/*HOME PAGE*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 6em;
+  height: 2em;
+}
+
+nav {
+  margin: 2em;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4em;
+}
+
+nav ul li a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #1d1d87;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+main {
+  display: flex;
+  gap: 10em;
+  margin-top: 5em;
+}
+
+.home-title {
+  font-size: 5.3rem;
+  font-weight: 200;
+  line-height: 100%;
+  margin: 0;
+}
+
+.sub-home-title {
+  font-size: 2em;
+  font-weight: 200;
+  line-height: 100%;
+  margin-top: 1em;
+}
+
+.home-page-btns {
+  margin-top: 3em;
+}
+
+.get-started-btn {
+  background-color: #1d1d87;
+  color: white;
+  padding: 1em 2em;
+  border-radius: 1em;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 2em;
+  margin-right: 2em;
+}
+
+.explore-btn {
+  background-color: whitesmoke;
+  color: #1d1d87;
+  padding: 1em 2em;
+  border-radius: 1em;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 2em;
+}
+
+.home-right-col-img {
+  width: 30em;
+  height: 40em;
+  border-radius: .8em;
+  margin-left: 8em;
+}
+
+/*LOGIN PAGE*/
+.login-form {
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.login-title {
+  font-weight: bold;
+  color: #1d1d87;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.sub-login-title {
+  font-weight: bold;
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.login-input-tittle {
+  font-weight: bold;
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 1em;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin: 2px 0;
+  border: 1px solid #1d1d87;
+  border-radius: 5px;
+  outline: none;
+}
+
+.login-btn {
+  width: 50%;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #1d1d87;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*GET STARTED PAGE*/
+.register-form {
+  margin-top: 120px;
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.register-title {
+  font-weight: bold;
+  color: #1d1d87;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.sub-register-title {
+  font-weight: bold;
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.register-input-tittle {
+  font-weight: bold;
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 1em;
+}
+
+.register-input {
+  width: 100%;
+  padding: 10px;
+  margin: 2px 0;
+  border: 1px solid #1d1d87;
+  border-radius: 5px;
+  outline: none;
+}
+
+.register-btn {
+  width: 50%;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #1d1d87;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
